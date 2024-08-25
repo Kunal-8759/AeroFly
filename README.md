@@ -4,6 +4,10 @@
 
 AeroFly is a comprehensive airline booking system that leverages microservices architecture to manage flights, bookings, user authentication, and notifications. The system is designed to be scalable, secure, and efficient, handling everything from flight scheduling to real-time seat reservations.
 
+ ## High Level Design and models Used in the Project : 
+ ![AeroFly (1)](https://github.com/user-attachments/assets/8debad2d-85d2-4118-aa63-21c8f02bad50)
+
+
 ## Engineering Problems Solved
 
 1. Booking Expiry and Seat Reallocation : If the payment is not successful within 5 minutes after the booking is created, the system automatically increases the seat count, and the booking status is updated to "canceled." If the user attempts to book the same seat after this period, the system prevents it.
@@ -28,6 +32,4 @@ AeroFly is a comprehensive airline booking system that leverages microservices a
  
   JavaScript(Node.js) , Express , Sequelize(SQL) , Redis-Cache , RabbitMQ Message Queue , JWT , Nodemailer , Rate Limiting (express-rate-limit) , Reverse Proxy(http-proxy-middleware).
 
- ## High Level Design and models Used in the Project : 
- ![AeroFly (1)](https://github.com/user-attachments/assets/8debad2d-85d2-4118-aa63-21c8f02bad50)
 
