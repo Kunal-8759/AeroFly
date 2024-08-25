@@ -1,0 +1,23 @@
+{
+  "name": "01_flights",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.37",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "mysql2": "^3.10.3",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
+  }
+}
